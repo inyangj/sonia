@@ -35,10 +35,10 @@ const Footer = () => {
 
       <ul className="flex gap-4">
             <li><a href="#" target="_blank"><img src="/twitter.svg" alt="twitter" /></a></li>
-            <li><a href="instagram.com/princess_sonear/" target="_blank"><img src="/instagram.svg" alt="instagram" /></a></li>
+            <li><a href="https://www.instagram.com/princess_sonear/" target="_blank"><img src="/instagram.svg" alt="instagram" /></a></li>
             <li><a href="https://wa.me/qr/QYL57BLKP7PZJ1" target="_blank"><img src="/WhatsApp.svg" alt="WhatsApp" /></a></li>
             <li><a href="#" target="_blank"><img src="/facebook.svg" alt="facebook" /></a></li>
-            <li><a href="#" target="_blank"><img src="/linkedin.svg" alt="LinkedIn" /></a></li>
+            <li><a href="https://www.linkedin.com/in/sonia-onwuchekwa-98b10226a/" target="_blank"><img src="/linkedin.svg" alt="LinkedIn" /></a></li>
         </ul>
         </div>
     )
