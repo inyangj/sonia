@@ -14,10 +14,10 @@ const App = () => {
     <div >
       <div className='m-4 sm:mx-16'>
       <Nav />
-    <header className='flex gap-2 mt-10 sm:flex-row-reverse sm:bg-green-900 sm:justify-between'>
-      <img src="./public/image1.jpg" alt="sonia" className='w-32  sm:w-1/3 rounded-s-2xl sm:rounded-e-3xl sm:rounded-s-none' />
+    <header className='flex gap-2 mt-10 sm:flex-row-reverse sm:justify-between'>
+      <img src="/image1.jpg" alt="sonia" className='w-32  sm:w-1/3 rounded-s-2xl sm:rounded-e-3xl sm:rounded-s-none' />
       <div className='grid justify-between'>
-      <p className='text-lg sm:text-[32px] sm:leading-snug sm:bg-red-700'>Hello, I'm Sonia Chiburoma </p>
+      <p className='text-lg sm:text-[32px] sm:leading-snug '>Hello, I'm Sonia Chiburoma </p>
       <span className='text-[24px] font-bold'> Accountant and Animator.</span> 
         
         <Link to="projects" smooth={true} className='text-lg font-semibold bg-[#FDC435] py-1 rounded-lg px-6 w-1/2 text-center'>Projects</Link>
