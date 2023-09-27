@@ -20,7 +20,7 @@ const App = () => {
       <p className='text-lg sm:text-[32px] sm:leading-snug '>Hello, I'm Sonia Chiburoma </p>
       <span className='text-[24px] font-bold'> Accountant and Animator.</span> 
         
-        <Link to="projects" smooth={true} className='text-lg font-semibold bg-[#FDC435] py-1 rounded-lg px-6 w-1/2 text-center'>Projects</Link>
+        <Link to="projects" smooth={true}><button className='text-lg font-semibold bg-[#FDC435] py-1 rounded-lg px-2 w-1/2 text-center'>Projects</button></Link>
       </div>
     </header>
     <article className='mt-[90px]'>
