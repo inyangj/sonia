@@ -18,7 +18,7 @@ const Footer = () => {
   
   
     return(
-        <div className="my-[40px] flex gap-4 justify-center">
+        <div className="my-[40px] flex gap-4 sm:gap-12 justify-center">
              <div>
              <a href={`mailto:${emailAddress}`}>
         <img src="/email.svg" alt="icon" />
@@ -33,7 +33,7 @@ const Footer = () => {
        
       </div>
 
-      <ul className="flex gap-4">
+      <ul className="flex gap-4 sm:gap-12">
             <li><a href="#" target="_blank"><img src="/twitter.svg" alt="twitter" /></a></li>
             <li><a href="https://www.instagram.com/princess_sonear/" target="_blank"><img src="/instagram.svg" alt="instagram" /></a></li>
             <li><a href="https://wa.me/qr/QYL57BLKP7PZJ1" target="_blank"><img src="/WhatsApp.svg" alt="WhatsApp" /></a></li>

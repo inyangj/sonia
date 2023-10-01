@@ -26,7 +26,7 @@ function Nav() {
         <nav className="flex items-center justify-between " id="home">
           <h1 className="font-bold text-2xl">Sonia</h1>
 
-          <ul className="hidden sm:flex justify-between w-1/3  sm:font-semibold text-xl">
+          <ul className="hidden sm:flex justify-between w-1/3 gap-2 sm:font-semibold md:text-xl">
             <li>
               <Link to="home" smooth={true}>
                 Home
