@@ -23,7 +23,7 @@ function Nav() {
   return (
     <>
       <Element name="home">
-        <nav className="flex items-center justify-between " id="home">
+        <nav className="flex items-center justify-between bg-[#FDC435] w-full p-4" id="home">
           <h1 className="font-bold text-2xl">Sonia</h1>
 
           <ul className="hidden sm:flex justify-between w-1/3 gap-2 sm:font-semibold md:text-xl">

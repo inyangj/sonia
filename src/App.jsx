@@ -12,8 +12,8 @@ const App = () => {
 
   return (
     <div >
-      <div className='m-4 sm:mx-16'>
       <Nav />
+      <div className='m-4 sm:mx-16'>
     <header className='flex gap-2 mt-10 sm:flex-row-reverse sm:justify-between '>
       <img src="/image1.jpg" alt="sonia" className='w-32  sm:w-1/3 rounded-s-2xl sm:rounded-e-3xl sm:rounded-s-none' />
       <div className='grid justify-between'>
